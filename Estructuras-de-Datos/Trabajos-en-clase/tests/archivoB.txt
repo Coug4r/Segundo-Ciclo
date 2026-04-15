@@ -1,0 +1,3 @@
+Esto es un ejercicio usando buffer
+Esto es el segundo ejercicio usando buffer
+Esto es el tercer ejercicio usando buffer
