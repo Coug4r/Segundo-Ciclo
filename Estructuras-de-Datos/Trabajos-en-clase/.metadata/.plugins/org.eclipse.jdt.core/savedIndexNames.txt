@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\nasnd\OneDrive\Desktop\UTPL\PROGRAMACION CLASES\POO\Estructura de Datos\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2216009787.index
+4248024605.index

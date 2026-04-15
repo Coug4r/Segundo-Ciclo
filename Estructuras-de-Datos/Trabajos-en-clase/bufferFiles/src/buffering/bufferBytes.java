@@ -1,0 +1,34 @@
+package buffering;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class bufferBytes {
+	public static void main(String args[]) {
+		try(BufferedOutputStream myBufferedOutputStream = new BufferedOutputStream(new FileOutputStream("C:\\Users\\nasnd\\OneDrive\\Desktop\\archivoBb.txt",true))){
+			String data1="Esto es un ejercicio usando buffer Bytes\n";
+			String data2="Esto es el segundo ejercicio usando buffer Bytes\n";
+			String data3="Esto es el tercer ejercicio usando buffer Bytes\n";
+			byte b1[] = data1.getBytes();
+			byte b2[] = data2.getBytes();
+			byte b3[] = data3.getBytes();
+			myBufferedOutputStream.write(b1);
+			myBufferedOutputStream.write(b2);
+			myBufferedOutputStream.write(b3);
+		}catch(IOException e) {
+			System.err.println("Error de escritura en archivo");
+		}
+		
+		try(BufferedInputStream myBufferedInputStream = new BufferedInputStream(new FileInputStream("C:\\Users\\nasnd\\OneDrive\\Desktop\\archivoBb.txt"))){
+			int i;
+			while((i=myBufferedInputStream.read())!= -1) {
+				System.out.print((char)i);
+			}
+		}catch(IOException e) {
+			System.err.println("Error de escritura en archivo");
+		}
+	}
+}

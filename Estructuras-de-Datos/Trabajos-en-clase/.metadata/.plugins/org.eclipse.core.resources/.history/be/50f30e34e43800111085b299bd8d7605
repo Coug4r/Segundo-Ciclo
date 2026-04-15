@@ -1,0 +1,23 @@
+package buffering;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+public class lecturaEscrituraBuffer {
+	public static void main(String args[]) {
+		try(BufferedWriter myBufferedWriter = new BufferedWriter(new FileWriter("C:\\Users\\nasnd\\OneDrive\\Desktop\\archivoB.txt",true))){
+			myBufferedWriter.write("Esto es un ejercicio usando buffer");
+			myBufferedWriter.newLine();
+			System.out.println("Escritura correcta");
+		}catch(IOException e) {
+			System.out.println("Error al escribir archivo!");
+		}
+		
+		try(BufferedReader myBufferedReader = new BufferedReader(new FileWriter("C:\\Users\\nasnd\\OneDrive\\Desktop\\archivoB.txt",true))){
+			System.out.println((char)myBufferedReader.read());
+			System.out.println("Escritura correcta");
+		}catch(IOException e) {
+			System.out.println("Error al escribir archivo!");
+		}
+	}
+}
