@@ -1,0 +1,2 @@
+Carrera: Computacion
+Duracion: 4 anios
