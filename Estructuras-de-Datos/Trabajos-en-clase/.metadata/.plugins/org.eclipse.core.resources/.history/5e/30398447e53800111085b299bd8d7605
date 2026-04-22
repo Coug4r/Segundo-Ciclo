@@ -1,7 +1,0 @@
-package buffering;
-
-public class bufferBytes {
-	public static void main(String args[]) {
-		//try(Buffered)
-	}
-}
