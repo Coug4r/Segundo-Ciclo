@@ -17,5 +17,6 @@
     <fullyQualifiedTypeName name="quickShort.ejemploQuickShort"/>
     <fullyQualifiedTypeName name="quickShort.QuickShort"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="ejemplos.MiMatriz"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

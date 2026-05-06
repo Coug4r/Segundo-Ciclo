@@ -22,7 +22,7 @@ class Vehiculo:
                 matricula = 700
             case 2010 | 2011 | 2012 | 2013 | 2014:
                 matricula = 100
-        return matricula + self.pago_impuestos()
+        return matricula + self.pago_impuestos() + self.pago_multas()
 
     def pago_impuestos(self):
         match self.tipo_vehiculo:
