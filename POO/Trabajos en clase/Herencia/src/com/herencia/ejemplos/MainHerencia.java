@@ -9,6 +9,11 @@ public class MainHerencia {
 		dalmata.dormir();
 		dalmata.getRaza();
 		dalmata.ladrar();
+		System.out.println("===========================");
+		Gato michi = new Gato("Mishifuz", 6, "Cruzado");
+		michi.comer();
+		michi.dormir();
+		michi.calcularEdad();
 	}
 
 }
