@@ -23,4 +23,6 @@
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.DireccionMemoria.main.PersonaMain"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger"/>
 </qualifiedTypeNameHistroy>
