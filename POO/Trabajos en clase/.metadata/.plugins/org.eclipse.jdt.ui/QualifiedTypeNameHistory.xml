@@ -6,4 +6,8 @@
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.herencia.ejemplos.Ejemplo1"/>
+    <fullyQualifiedTypeName name="com.herencia.ejemplos.Ejemplo1Herencia"/>
+    <fullyQualifiedTypeName name="com.herencia.ejemplos.Animal"/>
+    <fullyQualifiedTypeName name="com.herencia.ejemplos.Perro"/>
 </qualifiedTypeNameHistroy>
