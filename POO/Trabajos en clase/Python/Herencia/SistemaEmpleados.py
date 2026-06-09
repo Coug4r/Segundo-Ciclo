@@ -1,70 +1,20 @@
 class Empleado:
     def __init__(self, nombre, salario):
-        self.nombre = nombre
-        self.salario = salario
-
+        self.__nombre = nombre
+        self.__salario = salario
+    @property
+    def nombre(self):
+        return self.__nombre
+    @nombre.setter
+    def nombre(self,nuevo_nombre):
+        self.__nombre = nuevo_nombre
+    
+    def salario(self, salarioAct):
+        if salarioAct>0:
+            self.__salario = salarioAct
+            print("Salario actualizado")
+        else:
+            print("Erro el valor debe ser mayor a 0")
     def mostrar_info(self):
-        print("Nombre:", self.nombre)
-        print("Salario:", self.salario)
-
-class Docente(Empleado):
-    def __init__(self, nombre, salario, materia):
-        super().__init__(nombre, salario)
-        self.materia = materia
-
-    def mostrar_info(self):
-        super().mostrar_info()
-        print("Materia:", self.materia)
-
-class Administrativo(Empleado):
-    def __init__(self, nombre, salario, departamento):
-        super().__init__(nombre, salario)
-        self.departamento = departamento
-
-    def mostrar_info(self):
-        super().mostrar_info()
-        print("Departamento:", self.departamento)
-
-# Objetos
-docente1 = Docente("Carlos Pérez", 1200, "Programación")
-administrativo1 = Administrativo("Ana Gómez", 950, "Talento Humano")
-
-print("DOCENTE")
-docente1.mostrar_info()
-print("\nADMINISTRATIVO")
-administrativo1.mostrar_info()
-class Empleado:
-    def __init__(self, nombre, salario):
-        self.nombre = nombre
-        self.salario = salario
-
-    def mostrar_info(self):
-        print("Nombre:", self.nombre)
-        print("Salario:", self.salario)
-
-class Docente(Empleado):
-    def __init__(self, nombre, salario, materia):
-        super().__init__(nombre, salario)
-        self.materia = materia
-
-    def mostrar_info(self):
-        super().mostrar_info()
-        print("Materia:", self.materia)
-
-class Administrativo(Empleado):
-    def __init__(self, nombre, salario, departamento):
-        super().__init__(nombre, salario)
-        self.departamento = departamento
-
-    def mostrar_info(self):
-        super().mostrar_info()
-        print("Departamento:", self.departamento)
-
-# Objetos
-docente1 = Docente("Carlos Pérez", 1200, "Programación")
-administrativo1 = Administrativo("Ana Gómez", 950, "Talento Humano")
-
-print("DOCENTE")
-docente1.mostrar_info()
-print("\nADMINISTRATIVO")
-administrativo1.mostrar_info()
+        print("Nombre:", self.__nombre)
+        print("Salario:", self.__salario)
