@@ -14,4 +14,4 @@ class Administrativo(Empleado):
             print("Debe especificar un departamento")
     def mostrar_info(self):
         super().mostrar_info()
-        print("Departamento:", self.__departamento)
+        print("Departamento:", self.departamento)
