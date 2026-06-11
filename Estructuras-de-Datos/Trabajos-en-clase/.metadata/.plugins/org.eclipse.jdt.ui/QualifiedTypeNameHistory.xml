@@ -25,4 +25,5 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.DireccionMemoria.main.PersonaMain"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger"/>
+    <fullyQualifiedTypeName name="listaCircular.SinglyLinkedListC"/>
 </qualifiedTypeNameHistroy>
