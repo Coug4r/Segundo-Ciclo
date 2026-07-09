@@ -4,10 +4,21 @@
     <fullyQualifiedTypeName name="ejemplos.LibretaCalificaciones"/>
     <fullyQualifiedTypeName name="double"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.herencia.ejemplos.Ejemplo1"/>
     <fullyQualifiedTypeName name="com.herencia.ejemplos.Ejemplo1Herencia"/>
     <fullyQualifiedTypeName name="com.herencia.ejemplos.Animal"/>
     <fullyQualifiedTypeName name="com.herencia.ejemplos.Perro"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="com.sqliteJava.conexion.PooDB"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.sqliteJava.statemens.Statemens"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.utpl.administracion.utils.ConexionSQLite"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.utpl.administracion.DAO.EstudianteDAO"/>
+    <fullyQualifiedTypeName name="com.utpl.administracion.entidades.Estudiante"/>
 </qualifiedTypeNameHistroy>
