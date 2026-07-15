@@ -1,10 +1,2 @@
-18,SI,rock,3
-10,NO,Cumbia,2
-12,SI,,5
-20,SI,rock,5
-40,NO,salsa,2
-56,SI,voleros,4
-40,SI,Cumbia,3
-32,NO,rock,6
-9,SI,Regueton,1
-18,NO,rock,2
+
+

@@ -26,4 +26,5 @@
     <fullyQualifiedTypeName name="com.DireccionMemoria.main.PersonaMain"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger"/>
     <fullyQualifiedTypeName name="listaCircular.SinglyLinkedListC"/>
+    <fullyQualifiedTypeName name="ejemplos.Grafo"/>
 </qualifiedTypeNameHistroy>
