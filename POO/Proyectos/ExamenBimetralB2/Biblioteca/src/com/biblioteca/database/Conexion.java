@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Conexion {
 	public static Connection DbConection() {
 		try {
-			String jdbcUrl = "jdbc:sqlite:C:/Users/nasnd/OneDrive/Documentos/sqlite-tools-win-x64-3530300/biblioteca";
+			String jdbcUrl = "jdbc:sqlite:C:\\Users\\nasnd\\OneDrive\\Desktop\\UTPL\\PROGRAMACION CLASES\\Segundo-Ciclo\\POO\\Proyectos\\ExamenBimetralB2\\Biblioteca\\biblioteca";
 			Connection conexion = DriverManager.getConnection(jdbcUrl);
 			System.out.println("Conexion exitosa!");
 			return conexion;
